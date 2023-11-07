@@ -1,0 +1,32 @@
+{
+    "name": "GeekJunior",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Grove": "github:seeed-studio/pxt-grove#v0.5.0",
+        "servo": "*",
+        "audio-recording": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.22",
+        "tag": "v4.0.22",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/0fcc45347c46e1fc32b3645d6fec5cf7c0988183",
+        "target": "6.0.19",
+        "pxt": "7.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
